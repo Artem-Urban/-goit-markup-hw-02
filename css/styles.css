@@ -38,7 +38,8 @@ ul {
 }
 .nav-link,
 .link,
-.logo {
+.logo,
+.location {
   text-decoration: none;
 }
 /* Site nav */
@@ -131,11 +132,12 @@ ul {
 
 .location {
   color: var(--primary-white-color);
-  font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
 }
 footer .link {
   color: var(--addition-text-color);
+  line-height: 1.71;
 }
 /* Main-portfolio */
 .button {
