@@ -39,7 +39,8 @@ ul {
 .nav-link,
 .link,
 .logo,
-.location {
+.location,
+.cont-link {
   text-decoration: none;
 }
 /* Site nav */
@@ -59,12 +60,12 @@ ul {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.site-nav :hover,
-.site-nav :focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
-.contacts :hover,
-.contacts :focus {
+.cont-link:hover,
+.cont-link:focus {
   color: var(--accent-color);
 }
 .cont-link {
@@ -157,8 +158,8 @@ footer .link {
   font-family: Roboto, sans-serif;
 }
 
-.button-text :hover,
-.button-text :focus {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
